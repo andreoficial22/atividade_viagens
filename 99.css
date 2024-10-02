@@ -1,0 +1,124 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.minha-conta {
+    color: #14183E;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #14183E;
+}
+
+h1 span {
+    color: #4372EB;
+}
+
+p {
+    font-size: 1.2em;
+    color: #9A9EA6;
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+.cadastrar, .como-funciona {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.cadastrar {
+    background-color: #4372EB;
+    color: white;
+}
+
+.como-funciona {
+    color: #4372EB;
+}
+
+.viajante {
+    max-width: 800px;
+    height: auto;
+}
+
+.parceiros {
+    padding: 50px;
+    text-align: center;
+}
+
+.parceiros-lista img {
+    margin: 0 15px;
+    height: 40px;
+
+}
+
+.destinos-favoritos {
+    padding: 20px;
+    text-align: center;
+    background-color: white
+}
+
+.destinos-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destino {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 150px;
+}
+
+.reservas {
+    padding: 50px;
+    text-align: center;
+}
+
+.atracoes-turisticas {
+    padding: 50px;
+    text-align: center;
+}
+
+.mapa img {
+    max-width: 100%;
+    height: auto;
+}
